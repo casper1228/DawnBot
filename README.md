@@ -28,8 +28,8 @@
    ```
 ### 設定並運行
 
-1. Login/register Dawn Validator account and login, get the token in "getpoint?appid=" -> "authorization:" at network tab in inspect element in browser. 
-2. In `DawnBot` directory, Edit and adjust this line in `accounts.yaml` and save it
+1. 登入/註冊 Dawn Validator 帳戶並登錄，在瀏覽器中檢查元素的網路標籤中的 "getpoint?appid=" -> "authorization:" 中取得令牌 
+2. In `DawnBot` directory, 編輯並調整此行 `accounts.yaml` 
    ```
   	accounts:
  	  - email: "account1@example.com"      # Replace with actual email
@@ -38,14 +38,14 @@
    	    token: "example_token_2"
   	  # Add more accounts as needed
    ```
-3. Edit and adjust the `config.yaml` for proxy and delay options.
+3. 編輯並調整此行 `config.yaml` 用於代理和延遲選項
    ```
-	useProxy: false          # Set to true if you want to use proxies, false otherwise
-  	accountDelay: 121        # Delay in seconds for processing each account
-  	restartDelay: 241        # Delay in seconds for restarting the processing loop
+	useProxy: false          # 如果要使用代理，則設為 true，否則設為 false
+  	accountDelay: 121        # 處理每個帳戶的延遲（以秒為單位）
+  	restartDelay: 241        # 重新啟動處理循環的延遲（以秒為單位）
    ```
-4. Edit the `proxy.yaml` if you want to use proxy
-5. Run the script to start, use :
+4. 編輯 `proxy.yaml` 如果你想使用代理
+5. 運行腳本來啟動，使用：
    ```
    python main.py
    ```
