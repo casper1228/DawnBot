@@ -1,4 +1,4 @@
 proxies:
   - "proxy1:port"                      # Replace with actual proxy
   - "proxy2:port"                      # Replace with actual proxy
-  # Add more proxies as needed
+  # 根據需要新增更多代理
