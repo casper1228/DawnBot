@@ -24,7 +24,7 @@
    ```
 2. 安裝所需的套件
    ```
-apt install python3-requests
+   apt install python3-requests
    pip install -r requirements.txt
    ```
 ### 設定並運行
