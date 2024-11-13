@@ -1,6 +1,5 @@
 accounts:
-  - email: "account1@example.com"     # Replace with actual email
-    token: "example_token_1"           # Replace with actual token
-  - email: "account2@example.com"
-    token: "example_token_2"
+  - email: "@gmail.com"     # Replace with actual email
+    token: ""           # Replace with actual token
+
   # Add more accounts as needed
